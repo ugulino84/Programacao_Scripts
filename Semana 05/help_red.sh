@@ -25,6 +25,6 @@ echo -e '< - é utilizado para indicar ao comando que a entrada padrão, STDIN, 
 
 echo -e '<< - é utilizado quando se deseja inserir um conteúdo interativamente, até que seja informado seu fim.\n'
 
-echo -e '<<< - "here string", redireciona a entrada para uma string informada no comando.\n\nEx,: tr ''a-z'' ''A-Z'' <<< marcos\n\n>MARCOS.\n'
+echo -e '<<< - "here string", redireciona a entrada para uma string informada no comando.\n\nEx.: tr ''a-z'' ''A-Z'' <<< marcos\n\n>MARCOS.\n'
 
 echo -e '| - Sua função é ligar o STDOUT de um comando/programa ao STDIN de outro.\n\nEx.: echo 10+2 | bc\n\n>12'
