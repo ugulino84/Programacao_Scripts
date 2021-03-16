@@ -27,4 +27,4 @@ echo -e '<< - é utilizado quando se deseja inserir um conteúdo interativamente
 
 echo -e '<<< - "here string", redireciona a entrada para uma string informada no comando.\n\nEx,: tr ''a-z'' ''A-Z'' <<< marcos\n\n>MARCOS.'
 
-echo -e '| - Sua função é ligar o STDOUT de um comando/programa ao STDIN de outro.'
+echo -e '| - Sua função é ligar o STDOUT de um comando/programa ao STDIN de outro.\n\nEx.: echo 10+2 | bc\n\n>12'
