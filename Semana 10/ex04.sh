@@ -10,7 +10,7 @@
 
 while read a; do
 
-	if ! ping -c 1 $a &> /dev/null; then
+	if ! ping -c 4 $a &> /dev/null; then
 		echo -e "$a" >> /tmp/pingerror
 	fi
 
