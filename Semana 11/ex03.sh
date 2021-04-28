@@ -10,6 +10,6 @@ calda=3
 while [ ${cabeca} -le ${n} ]; do
 	echo -e "$(cat $1 | head -${calda} | tail -3)"
 	cabeca=$(( ${cabeca} + 3 ))
-	calda=$(( ${calda} +3 ))
+	calda=$(( ${calda} + 3 ))
 	read -p "MORE"
 done
