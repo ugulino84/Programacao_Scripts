@@ -17,9 +17,9 @@ if [ -e $dir ]; then
 		echo -e "${linha}" | grep -E '^d'
 	done
 
-	echo -e "-> São arquivos:"
+	echo -e "-> São arquivos executáveis:"
 	for linha in "$(ls -l $dir)"; do
-		echo -e "${linha}" | grep -E '^-'
+		echo -e "${linha}" | grep -E '^-.{2,8}x'
 	done
 
 	echo -e "-> São Scripts Shell:"
